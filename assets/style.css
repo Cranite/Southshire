@@ -27,7 +27,7 @@ body {
 section.cover {
 	position: relative;
 	width: 100vw;
-	height: 100vh;
+	height: 500vh;
 	padding: 0px;
 	margin: 0px;
 	border: 0px;
@@ -46,7 +46,7 @@ section.cover canvas {
 section.cover div.title {
 	position: absolute;
 	width: 400px;
-	margin: 50vh 50vw;
+	margin: 25vh 50vw;
 	transform: translateX(-50%) translateY(-50%);
 	font-size: 72px;
 	text-align: center;
