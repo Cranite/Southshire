@@ -11,10 +11,6 @@ highlighter: rouge
 
 excerpt_separator: <!--more-->
 
-# Gems
-gems:
-    - jekyll-admin
-
 defaults:
     -
         scope:
