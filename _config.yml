@@ -1,10 +1,10 @@
-name: Totally Not Asteroids
-url: https://cranite.github.io/Totally-not-Asteroids
-title: Derp
+name: Southshire
+url: https://cranite.github.io/Southshire/
+title: Southshire
 email: cranite@protonmail.com
-description: What do you do when you need to ramble?<br>You make a blog.
-feed_description: What do you do when you need to ramble? You make a blog.
-meta_description: "The one stop shop for a random's ramblings."
+description: The official website for Southshire, Commonwealth.
+feed_description: The official website for Southshire, Commonwealth.
+meta_description: "Southshire, Commonwealth. (Official)"
 
 markdown: kramdown
 highlighter: rouge
@@ -14,46 +14,6 @@ excerpt_separator: <!--more-->
 # Gems
 gems:
     - jekyll-admin
-
-# Exclude - With Help From gitignore.io
-exclude:
-    - "Thumbs.db"
-    - "ehthumbs.db"
-    - "Desktop.ini"
-    - "$RECYCLE.BIN/"
-    - "*.cab"
-    - "*.msi"
-    - "*.msm"
-    - "*.msp"
-    - "*.lnk"
-    - "*.DS_Store"
-    - ".AppleDouble"
-    - ".LSOverride"
-    - "Icon"
-    - "._*"
-    - ".DocumentRevisions-V100"
-    - ".fseventsd"
-    - ".Spotlight-V100"
-    - ".TemporaryItems"
-    - ".Trashes"
-    - ".VolumeIcon.icns"
-    - ".com.apple.timemachine.donotpresent"
-    - ".AppleDB"
-    - ".AppleDesktop"
-    - "Network Trash Folder"
-    - "Temporary Items"
-    - ".apdisk"
-    - "*~"
-    - ".fuse_hidden*"
-    - ".directory"
-    - ".Trash-*"
-    - "_drafts/"
-    - "_site/"
-    - ".sass-cache/"
-    - ".jekyll-metadata"
-    - ".gitignore"
-    - "*.orig"
-
 
 defaults:
     -
