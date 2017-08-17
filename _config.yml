@@ -1,19 +1,24 @@
-name: Southshire
-url: //southshire.wiki
+---
 title: Southshire
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: default
+name: Southshire
+url: "//southshire.wiki"
 email: cranite@protonmail.com
 description: The official website for Southshire, Commonwealth.
 feed_description: The official website for Southshire, Commonwealth.
-meta_description: "Southshire, Commonwealth. (Official)"
-
+meta_description: Southshire, Commonwealth. (Official)
 markdown: kramdown
 highlighter: rouge
-
-excerpt_separator: <!--more-->
-
-defaults:
-    -
-        scope:
-            path: ""
-        values:
-            layout: "default"
+excerpt_separator: "<!--more-->"
