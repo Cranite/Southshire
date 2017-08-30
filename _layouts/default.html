@@ -6,25 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="canonical" href="{{site.url}}{{page.url}}">
     <title>{{site.name}}{% if page.title %} - {{page.title}}{% endif %}</title>
-    <link rel="shortcut icon" href="{{site.url}}/assets/images/favicon.ico">
-    <link rel="stylesheet" href="{{site.url}}/assets/style.css">
+    <!--[if lte IE 8]><script src="{{site.url}}/assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="{{site.url}}/assets/css/main.css"/>
+    <!--[if lte IE 8]><link rel="stylesheet" href="{{site.url}}/assets/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="{{site.url}}/assets/css/ie9.css" /><![endif]-->
 </head>
-<body>
-    {% if page.homepage == true %}
-    <section class="cover">
-        <div class="title">
-            Southshire
-        </div>
-    </section>
-    {% endif %}
-    <section class="main">
+<body class="{{page.page}}">
+    <div id="page-wrapper">
         {% include navigation.html %}
-        <article>
-        {% if page.title %}
-            <h1>{{ page.title }}</h1>
-        {% endif %}
         {{content}}
-        </article>
-    </section>
+        {% if page.footer == true %}
+        <footer id="footer">
+            This website was created using <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://html5up.net/twenty">Twenty.</a><br/>
+            <a href="https://pages.github.com/">Github Pages</a> as host, <a href="https://www.namecheap.com/">Namecheap</a> as registrar.<br/>
+            Maintained by <a href="https://github.com/Cranite">Cranite</a> and <a href="https://github.com/jc1984442">jc1984442.</a>
+        </footer>
+        {% endif %}
+        <script src="{{site.url}}/assets/js/jquery.min.js"></script>
+        <script src="{{site.url}}/assets/js/jquery.dropotron.min.js"></script>
+        <script src="{{site.url}}/assets/js/jquery.scrolly.min.js"></script>
+        <script src="{{site.url}}/assets/js/jquery.scrollgress.min.js"></script>
+        <script src="{{site.url}}/assets/js/skel.min.js"></script>
+        <script src="{{site.url}}/assets/js/util.js"></script>
+        <!--[if lte IE 8]><script src="{{site.url}}/assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="{{site.url}}/assets/js/main.js"></script>
+    </div>
 </body>
 </html>

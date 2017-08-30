@@ -13,6 +13,7 @@ defaults:
     path: ''
   values:
     layout: default
+    footer: true
 name: Southshire
 url: "//southshire.wiki"
 email: cranite@protonmail.com
